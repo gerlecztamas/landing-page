@@ -78,26 +78,25 @@ h2 a:hover{
     font-size: 18px;
     color: #E5E7EB;
 }
-.welcome{
+.welcome, .picture{
     flex: 1;
 }
-.picture{
-    height: 200px;
-    width: 450px;
-    background-color: gray;
-    color: #E5E7EB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.picture img{
+    width: 100%;
 }
 
-.welcome span{
-    margin-top: 15px;
+.welcome a{
+    margin-top: 25px;
     display: block;
     width: fit-content;
     border-radius: 10px;
     padding: 8px 30px;
     background-color: #3882F6;
+}
+
+.welcome a:hover{
+    color: #E5E7EB;
+    background-color: rgba(56, 130, 246, 0.7);
 }
 
 .info{
